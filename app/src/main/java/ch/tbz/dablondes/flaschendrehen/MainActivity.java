@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             float pivotX = v.getWidth() / 2;
             float pivotY = v.getHeight() / 2;
 
+
             Animation rotate = new RotateAnimation(lastDir, newDir, pivotX, pivotY);
             rotate.setDuration(3000);
             rotate.setFillAfter(true);
